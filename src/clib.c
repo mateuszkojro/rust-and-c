@@ -1,8 +1,14 @@
-int foo(void)
+const char* foo(void)
 {
-	return 2;	
+	return "foo";
 }
 
-int add(int a, int b) {
+int add(int a, int b)
+{
 	return a + b;
+}
+
+int sub(int a, int b)
+{
+	return a - b;
 }
